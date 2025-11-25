@@ -5,8 +5,8 @@ const app = express();
 const PORT = 3000;
 
 // Gemini API configuration
-const GEMINI_API_KEY = 'YOUR_API_KEY_HERE'; // Thay bằng key của bạn
-const GEMINI_API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent';
+const GEMINI_API_KEY = 'AIzaSyBL921cuFlnaR7mOPJ9QdCWTwd8H62ztFo'; // Thay bằng key của bạn
+const GEMINI_API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent';
 
 app.use(express.json());
 
