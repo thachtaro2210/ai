@@ -2,7 +2,7 @@ const express = require('express');
 const axios = require('axios');
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 // Gemini API configuration
 const GEMINI_API_KEY = 'AIzaSyBL921cuFlnaR7mOPJ9QdCWTwd8H62ztFo'; // Thay bằng key của bạn
