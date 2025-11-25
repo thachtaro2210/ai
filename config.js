@@ -1,6 +1,6 @@
 module.exports = {
   // API Configuration
-  GEMINI_API_URL: 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent',
+  GEMINI_API_URL: 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent',
   
   // Generation Config - TỐI ƯU ĐỂ TỐN ÍT TOKEN NHẤT
   GENERATION_CONFIG: {
