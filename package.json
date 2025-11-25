@@ -1,0 +1,25 @@
+{
+  "name": "gemini-api-server",
+  "version": "1.0.0",
+  "description": "Node.js server sử dụng Gemini API",
+  "main": "gemini-server.js",
+  "scripts": {
+    "start": "node gemini-server.js",
+    "dev": "nodemon gemini-server.js"
+  },
+  "keywords": [
+    "gemini",
+    "api",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
